@@ -1,0 +1,64 @@
+#path1, #path2, #path3, #path4, #path5, #path6, #path7 {
+    animation-name: draw;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#path1 {
+    stroke-dasharray: 160.64 160.64;
+    stroke-dashoffset: 160.64;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+#path2 {
+    stroke-dasharray: 174.39 174.39;
+    stroke-dashoffset: 174.39;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+#path3 {
+    stroke-dasharray: 147.18 147.18;
+    stroke-dashoffset: 147.18;
+    animation-duration: 1s;
+    animation-delay: 5s;
+}
+
+#path4 {
+    stroke-dasharray: 210.97 210.97;
+    stroke-dashoffset: 210.97;
+    animation-duration: 2s;
+    animation-delay: 6s;
+}
+
+#path5 {
+    stroke-dasharray: 68.29 68.29;
+    stroke-dashoffset: 68.29;
+    animation-duration: 1s;
+    animation-delay: 8s;
+}
+
+#path6 {
+    stroke-dasharray: 10 10;
+    stroke-dashoffset: 10;
+    animation-duration: 1s;
+    animation-delay: 9s;
+}
+
+#path7 {
+    stroke-dasharray: 92.11 92.11;
+    stroke-dashoffset:  92.11;
+    animation-duration: 2s;
+    animation-delay: 10s;
+}
+
+
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
